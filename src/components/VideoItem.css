@@ -1,0 +1,8 @@
+.video-thumbnail{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
