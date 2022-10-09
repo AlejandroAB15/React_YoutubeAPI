@@ -6,7 +6,7 @@ const VideoItem = ({ video, onVideoSelect }) => {
         <div className="columns is-vcentered" onClick={() => {onVideoSelect(video)}} style={{cursor: "pointer"}}>
             <div className="column is-one-fifth">
                 <figure className="image video-thumbnail">
-                <img src={video.snippet.thumbnails.medium.url} alt=""/>
+                <img src={video.snippet.thumbnails.medium.url} alt={video.snippet.title}/>
                 </figure>
             </div>
             <div className="column">
